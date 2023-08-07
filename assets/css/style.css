@@ -1,0 +1,284 @@
+/*-----------------CONTEUDO CASCATAS----------------*/
+
+#basecascatas {
+	background-color: none;
+	width: 670.8864px;
+	height: 613.4593px;
+	float: left;
+}
+
+/*PREVIEW CASCATAS*/
+
+.previewcascatas { /*conf geral*/
+	width: 631.1433px; 
+	height: auto;
+	overflow: auto;
+	margin-bottom: 15.6065px;
+	margin-left: 33.745px;
+	float: left;
+	background : rgba(255, 255, 255, 1);
+	border-radius : 12px;
+	box-shadow: inset 0px 0px 6px 4px rgba(51, 51, 51, 0.2);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  	font-size : 12px;
+	text-align: center;
+  	color : rgb(35, 31, 32)
+}
+
+/*.previewcascatas:nth-of-type(1),
+.previewcascatas:nth-of-type(2) {
+  margin-bottom: 10px;
+} duvida sobre selecao*/
+
+.iconejogador {
+	width: 40.8398px;
+	height: 42.2541px;
+	border-radius: 50%;
+	margin-top: 1px;
+	margin-left: -17px;
+	position: absolute;
+	background-color:rgba(127, 84, 160, 1);
+} 
+	.iconejogador img {
+		width: 20.3558px;
+		height: 28.8527px;
+		margin: auto;
+		padding-top: 11.963px;
+	}
+
+.iconemesa {
+	width: 40.8398px;
+	height: 42.2541px;
+	border-radius: 50%;
+	margin-top: 1px;
+	margin-left: -17px;
+	position: absolute;
+	background-color: rgba(236, 233, 98, 1);
+} 
+	.iconemesa img {
+		width: 26.495px;
+		height: 26.495px;
+		margin: auto;
+		padding-top: 15.963px;
+	}
+
+.identificacao {
+	width: 206.1641px;
+	height: 19.1734px;
+	float: left;
+	margin-top: 14.188px;
+	margin-left: 27.717px;
+	padding-top: 3px;
+	font-weight : bold;
+}
+
+.datadisp {
+	width: 117.475px;
+	height: auto;
+	float: left;
+	margin-left: 55.543px;
+	margin-top: 4.5px;
+	padding-top: 12px;
+	font-weight : bold;
+}
+
+.km {
+	width: 52.8691px;
+	height:auto;
+	float: left;
+	margin-top: 5px;
+	margin-left: 64.701px;
+	padding: 12px;
+	font-weight : bold;
+}
+
+.setacascata {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 39.9918px;
+	margin-top: 17.6351px;
+}
+	.setacascata img {
+		width: 25.8885px;
+		height: 13.7299px;
+	}
+
+/*----------------------CASCATA ABERTA----------------------*/
+.escondidoaberto {
+	width: 632.4643px;
+	height: 331.2485px;
+	float: left;
+	margin-left: 33.745px;
+	background-color: rgba(255, 255, 255, 1);
+	/*box-shadow: inset 0px 0px 6px 4px rgba(51, 51, 51, 0.2);*/
+	display: block;
+}
+
+/*INFOS GERAIS*/
+.checkboxverde{
+	width: auto;
+	height: auto;
+	float: right;
+	margin-top: 2px;
+	margin-right: 4px;
+}
+	.checkboxverde img{
+		width: 13.2488px;
+		height: 13.2488px;
+		/*right: 10.8836px;*/
+	}
+
+/*----------------------------------------------*/
+.idadejogador {
+	width: 81.2921px;
+	height: 19.8461px;
+	float: left;
+	margin-top: 22.8699px;
+	margin-left: 60.191px;
+	text-align: center;
+}
+
+.jogadorstatus {
+	width: 102.9049px;
+	height: 19.8461px;
+	float: left;
+	margin-top: 22.8699px;
+	margin-left: 10.431px;
+	text-align: center;
+}
+
+.narradorstatus {
+	width: 110.7112px;
+	height: 19.8461px;
+	float: left;
+	margin-top: 22.8699px;
+	margin-left: 14.7413px;
+	text-align: center;
+}
+
+.xpstatus {
+	width: 140.5639px;
+	height: 19.8461px;
+	float: left;
+	margin-top: 22.8699px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.sinopse {
+	width: 496.5814px;
+	height: 139.7px;
+	float: left;
+	margin-top: 21.3731px;
+	margin-left: 48.191px; 
+	border-left: solid 4.4216px;
+	border-color: rgba(236, 233, 98, 1);
+	text-align: justify;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	color: rgb(77, 77, 77);
+}
+
+.like {
+	width: auto;
+	height: auto;
+	float: left;
+	border-radius: 50%;
+	margin-top: 26.33px;
+	margin-left: 48.191px;
+	box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, 0.2);
+}
+	.like img {
+		width: 20.4351px;
+		height: 16.9273px;
+	}
+
+.denunciar {
+	width: auto;
+	height: auto;
+	border-radius: 50%;
+	float: left;
+	margin-top: 26.33px;
+	margin-left: 9.8153px;
+	box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, 0.2);
+}
+	.denunciar img {
+		width: 26.7773px;
+		height: 17.8434px;
+	}
+
+.txtinfocomentario {
+	width: 123.9px;
+	height: 17.2645px;
+	float: left;
+	margin-top: 28.33px;
+	margin-left: 292px;
+	text-align: right;
+	color: rgb(153, 153, 153);
+}
+	
+.btcomentario {
+	width: 33.9145px;
+	height: 33.9145px;
+	border-radius: 50%;
+	float: left;
+	margin-top: 17.7px;
+	margin-left: 4px;
+	background-color: rgba(236, 233, 98, 1);
+	box-shadow: 4px 3px 4px 2px rgba(0, 0, 0, 0.2);
+}
+	.btcomentario img {
+		width: 14.8746px;
+		height: 14.8433px;
+		padding-top: 9.5px;
+	}
+
+#mapinha{
+	display: none;
+}
+	#botaomapinha{
+		display: none;
+	}
+
+/*RESPONSIVO*/
+@media only screen and (max-width: 786px) {
+
+
+#mapinha{
+	display: block;
+	float: left;
+	width: auto;
+	height: 73px;
+	margin-left: 280px;
+	cursor: pointer;
+}
+	#botaomapinha {
+		display: block;
+		width : 155px;
+  		height : 40px;
+		margin: auto;
+		margin-top: 20px;
+		background-color: rgba(127, 84, 160, 1);
+		border-style: solid;
+		border-color :rgba(236, 233, 98, 1);
+  		border-width : 2px;
+		border-radius: 12px;
+		line-height: 40px;
+		text-align: center;
+		font-family : Verdana;
+		font-weight : bold;
+		font-size : 13px;
+		color : rgba(236, 233, 98, 1); /*rgb(35, 31, 32);*/
+		box-shadow: 4px 6px 4px 4px rgba(0, 0, 0, 0.2);
+	}
+
+	#mapinha a{
+		color:rgba(236, 233, 98, 1);
+		text-decoration: none;
+	}
+}
+
+
+
